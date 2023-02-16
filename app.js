@@ -1,9 +1,9 @@
-const express = require('express');
+// const express = require('express');
 
-const app = express();
+// const app = express();
 
-app.use((request, response) => {
-   response.json({ message: 'Hey! This is your server response!' }); 
-});
+// app.use((request, response) => {
+//    response.json({ message: 'Hey! This is your server response!' }); 
+// });
 
-module.exports = app;
+// module.exports = app;

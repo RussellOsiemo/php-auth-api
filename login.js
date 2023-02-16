@@ -2,7 +2,12 @@ const mysql = require('mysql');
 const express = require('express');
 const session = require('express-session');
 const path = require('path');
-const conn = require('./db')
+const connection = mysql.createConnection({
+	host     : 'localhost',
+	user     : 'root',
+	password : '',
+	database : 'nodelogin'
+});
 
 //initialize express
 const app = express();
